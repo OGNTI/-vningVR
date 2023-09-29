@@ -5,7 +5,7 @@ using UnityEngine;
 public class bulletController : MonoBehaviour
 {
     [SerializeField]
-    float force = 500;
+    float force = 500; 
 
     void Start()
     {

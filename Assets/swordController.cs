@@ -22,6 +22,6 @@ public class swordController : MonoBehaviour
 
     public void PullTrigger()
     {
-        Instantiate(bulletPrefab, swordEndPosition.position, Quaternion.identity);
+        Instantiate(bulletPrefab, swordEndPosition.position, swordEndPosition.rotation);
     }
 }
